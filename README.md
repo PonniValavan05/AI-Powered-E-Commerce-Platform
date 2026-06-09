@@ -127,6 +127,18 @@ The app will open at http://localhost:3001
 Environment Variables:
 REACT_APP_GROQ_API_KEY - Your Groq API key (starts with gsk_)
 
+## 🔑 Getting Your Groq API Key
+
+This project uses Groq API for the AI chatbot. You need a free API key.
+
+1. Go to [console.groq.com](https://console.groq.com)
+2. Sign in with Google
+3. Click **API Keys** → **Create API Key**
+4. Name it (e.g., "ShopAI")
+5. Copy the key (starts with `gsk_`)
+
+> ⚠️ **Important:** Never share or commit your API key. The `.env` file is already in `.gitignore`.
+
 Project Structure:
 
 AI-Powered-E-Commerce-Platform/
