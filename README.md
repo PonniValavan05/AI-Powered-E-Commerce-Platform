@@ -61,33 +61,33 @@ The chatbot is powered by **Groq API** (Llama 3.1 8B model) - 100% free to use.
 ## AI Chatbot Commands:
 
 ### 📱 Phone Commands:
-Compare iPhone 15 vs Samsung S24
-Show phones under ₹15000
-Tell me about POCO X6 Pro
-Best phone for gaming
-Add iPhone 15 to cart
+Compare iPhone 15 vs Samsung S24,
+Show phones under ₹15000,
+Tell me about POCO X6 Pro,
+Best phone for gaming,
+Add iPhone 15 to cart,
 
 ### 📺 TV Commands:
-Compare Sony vs Samsung TV
-Best 43 inch TV
-Which TV is best under ₹50000?
-Show all Sony TVs
+Compare Sony vs Samsung TV,
+Best 43 inch TV,
+Which TV is best under ₹50000?,
+Show all Sony TVs,
 
 ### 🎧 Headset Commands:
-Compare Sony WH-1000XM5 vs Bose
-Best headset under ₹5000
-Add boAt earbuds to cart
+Compare Sony WH-1000XM5 vs Bose,
+Best headset under ₹5000,
+Add boAt earbuds to cart,
 
 ### 🎟️ Coupon Commands:
-DIWALI30
-SAVE10
-Show coupon codes
-Apply welcome discount
+DIWALI30,
+SAVE10,
+Show coupon codes,
+Apply welcome discount,
 
 ### 🎁 Festival Commands:
-Diwali gift ideas
-Best gift under ₹1000
-Festival offers
+Diwali gift ideas,
+Best gift under ₹1000,
+Festival offers,
 
 ## Tech Stack:
 
