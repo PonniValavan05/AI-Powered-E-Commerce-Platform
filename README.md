@@ -158,4 +158,3 @@ AI Chatbot in Action:
 Checkout Flow:
 
 ![alt text](image-2.png)
-
