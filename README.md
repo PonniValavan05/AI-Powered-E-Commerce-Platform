@@ -122,7 +122,7 @@ echo "REACT_APP_GROQ_API_KEY=your_groq_api_key_here" > .env
 
 # 5. Start the development server
 npm start
-The app will open at http://localhost:3000
+The app will open at http://localhost:3001
 
 Environment Variables:
 REACT_APP_GROQ_API_KEY - Your Groq API key (starts with gsk_)
