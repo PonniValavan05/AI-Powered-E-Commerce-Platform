@@ -146,15 +146,3 @@ AI-Powered-E-Commerce-Platform/
 ├── .gitignore              # Ignored files
 ├── package.json
 └── README.md
-
-Homepage with Product Listing:
-
-![alt text](image.png)
-
-AI Chatbot in Action:
-
-![alt text](image-1.png)
-
-Checkout Flow:
-
-![alt text](image-2.png)
