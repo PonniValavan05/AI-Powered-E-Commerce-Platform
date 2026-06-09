@@ -1,72 +1,161 @@
-# AI-Powered E-Commerce Platform
+# 🛍️ ShopAI - AI-Powered E-Commerce Platform
 
-## Overview
+> A complete mini e-commerce platform with an AI chatbot assistant integrated with Groq API. Built for Full Stack Developer Internship assessment at Auriseg.
 
-ShopAI is an AI-powered e-commerce platform designed to enhance the online shopping experience through intelligent product recommendations and an interactive shopping assistant. The platform enables users to browse products, search efficiently, manage their cart, and receive AI-driven shopping guidance.
+**📂 GitHub:** https://github.com/PonniValavan05/AI-Powered-E-Commerce-Platform
 
-## Features
+**🎥 Demo Video:** [Add your video link here]
 
-* AI-powered shopping assistant chatbot
-* Intelligent product recommendations
-* Product search functionality
-* Shopping cart management
-* Product comparison support
-* Coupon and discount suggestions
-* Responsive user interface
-* Modern e-commerce experience
+## 📋 Table of Contents:
+1. [Project Overview](#project-overview)
+2. [Features Implemented](#features-implemented)
+3. [AI Chatbot Commands](#ai-chatbot-commands)
+4. [Tech Stack](#tech-stack)
+5. [Installation & Setup](#installation--setup)
+6. [Project Structure](#project-structure)
+7. [Screenshots](#screenshots)
+8. [Submission Information](#submission-information)
 
-## Technology Stack
+## Project Overview:
 
-### Frontend
+ShopAI is a **fully functional e-commerce platform** where users can:
+- Browse 40+ products across 6 categories
+- Add/remove items from cart
+- Complete checkout with address and payment
+- Interact with an **AI chatbot** that can compare products, filter by budget, manage cart, and apply coupons
 
-* React.js
-* JavaScript (ES6+)
-* HTML5
-* CSS3
+The chatbot is powered by **Groq API** (Llama 3.1 8B model) - 100% free to use.
 
-### AI Integration
+## Features Implemented:
 
-* Groq API
-* LLM-powered chatbot assistance
+### 🛒 E-Commerce Features:
+| Feature | Status |
+|---------|--------|
+| Product listing with categories | ✅ |
+| Product search and filter | ✅ |
+| Add to cart / Remove from cart | ✅ |
+| Cart quantity management | ✅ |
+| Checkout flow (Address + Payment) | ✅ |
+| Coupon discount system | ✅ |
+| Responsive design | ✅ |
 
-### Development Tools
+### 🤖 AI Chatbot Features (Groq API):
+| Feature | Description |
+|---------|-------------|
+| Product Comparison | Compare specs, prices, ratings |
+| Budget Filtering | "Show phones under ₹15000" |
+| Cart Management | Add/remove items via chat |
+| Coupon Codes | Apply SAVE10, DIWALI30, etc. |
+| Festival Deals | "Diwali gift ideas" |
+| Product Info | "Tell me about iPhone 15" |
+| Emoji Reactions | 👍❤️😮😄 on messages |
 
-* Visual Studio Code
-* Git
-* GitHub
-* Create React App
+### 💰 Available Coupons:
+| Code | Discount |
+|------|----------|
+| SAVE10 | 10% OFF |
+| WELCOME20 | 20% OFF |
+| DIWALI30 | 30% OFF |
+| FESTIVE50 | 50% OFF |
 
-## Project Structure
+## AI Chatbot Commands:
 
-src/
-├── components/
-├── App.js
-├── App.css
-├── index.js
-└── assets/
+### 📱 Phone Commands:
+Compare iPhone 15 vs Samsung S24
+Show phones under ₹15000
+Tell me about POCO X6 Pro
+Best phone for gaming
+Add iPhone 15 to cart
 
-## Future Enhancements
+### 📺 TV Commands:
+Compare Sony vs Samsung TV
+Best 43 inch TV
+Which TV is best under ₹50000?
+Show all Sony TVs
 
-* User authentication and authorization
-* Wishlist functionality
-* Order management system
-* Payment gateway integration
-* Product review and rating system
-* Cloud deployment using AWS
-* Advanced recommendation engine
+### 🎧 Headset Commands:
+Compare Sony WH-1000XM5 vs Bose
+Best headset under ₹5000
+Add boAt earbuds to cart
 
-## Learning Outcomes
+### 🎟️ Coupon Commands:
+DIWALI30
+SAVE10
+Show coupon codes
+Apply welcome discount
 
-Through this project, I gained hands-on experience in:
+### 🎁 Festival Commands:
+Diwali gift ideas
+Best gift under ₹1000
+Festival offers
 
-* React component development
-* State management
-* API integration
-* Responsive web design
-* Frontend project structure
-* AI-assisted application development
-* Git and GitHub version control
+## Tech Stack:
 
-## Disclaimer
+| Category | Technology |
+|----------|------------|
+| Frontend | React.js 18 |
+| AI API | Groq (Llama 3.1 8B) |
+| Styling | CSS-in-JS / Inline styles |
+| Version Control | Git & GitHub |
+| Deployment | Vercel (recommended) |
 
-This project was developed for learning and portfolio purposes to demonstrate modern web development and AI integration concepts.
+## Installation & Setup:
+
+### Prerequisites:
+- Node.js (v18 or higher)
+- Groq API key ([Free at console.groq.com](https://console.groq.com))
+
+### Steps to Run Locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/PonniValavan05/AI-Powered-E-Commerce-Platform.git
+
+# 2. Navigate to project folder
+cd AI-Powered-E-Commerce-Platform
+
+# 3. Install dependencies
+npm install
+
+# 4. Create .env file with your Groq API key
+echo "REACT_APP_GROQ_API_KEY=your_groq_api_key_here" > .env
+
+# 5. Start the development server
+npm start
+The app will open at http://localhost:3000
+
+Environment Variables:
+REACT_APP_GROQ_API_KEY - Your Groq API key (starts with gsk_)
+
+Project Structure:
+
+AI-Powered-E-Commerce-Platform/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Chatbot.js      # AI assistant (compare, budget, cart)
+│   │   ├── Cart.js         # Shopping cart UI
+│   │   ├── Checkout.js     # Address & payment flow
+│   │   ├── ProductCard.js  # Product display card
+│   │   └── ProductDetail.js # Single product view
+│   ├── App.js              # Main app with 40+ products
+│   ├── App.css
+│   └── index.js
+├── .env                    # API keys (not in git)
+├── .gitignore              # Ignored files
+├── package.json
+└── README.md
+
+Homepage with Product Listing:
+
+![alt text](image.png)
+
+AI Chatbot in Action:
+
+![alt text](image-1.png)
+
+Checkout Flow:
+
+![alt text](image-2.png)
+
