@@ -2,8 +2,6 @@
 
 > A complete mini e-commerce platform with an AI chatbot assistant integrated with Groq API. Built for Full Stack Developer Internship assessment at Auriseg.
 
-**📂 GitHub:** https://github.com/PonniValavan05/AI-Powered-E-Commerce-Platform
-
 **🎥 Demo Video:** [Add your video link here]
 
 ## 📋 Table of Contents:
