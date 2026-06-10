@@ -4,6 +4,8 @@
 
 **📂 GitHub:** https://github.com/PonniValavan05/AI-Powered-E-Commerce-Platform
 
+**🌐 Live Demo:** http://ec2-56-228-32-141.eu-north-1.compute.amazonaws.com
+
 **🎥 Demo Video:** [Add your video link here]
 
 ## 📋 Table of Contents:
