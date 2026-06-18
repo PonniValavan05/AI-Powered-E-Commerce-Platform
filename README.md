@@ -2,7 +2,7 @@
 
 > A complete mini e-commerce platform with an AI chatbot assistant integrated with Groq API. Built for Full Stack Developer Internship assessment at Auriseg.
 
-**🎥 Demo Video:** [Add your video link here]
+**🎥 Demo Video:** [https://drive.google.com/file/d/1OY6uhV6IX4HSjadVf7fBHdaZ3EHAWHGz/view?usp=drive_link]
 
 ## 📋 Table of Contents:
 1. [Project Overview](#project-overview)
