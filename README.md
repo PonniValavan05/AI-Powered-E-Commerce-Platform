@@ -1,6 +1,6 @@
 # 🛍️ ShopAI - AI-Powered E-Commerce Platform
 
-> A complete mini e-commerce platform with an AI chatbot assistant integrated with Groq API. Built for Full Stack Developer Internship assessment at Auriseg
+> A complete mini e-commerce platform with an AI chatbot assistant integrated with Groq API. Built for Full Stack Developer Internship assessment at Auriseg.
 
 **🎥 Demo Video:** [https://drive.google.com/file/d/1OY6uhV6IX4HSjadVf7fBHdaZ3EHAWHGz/view?usp=drive_link]
 
