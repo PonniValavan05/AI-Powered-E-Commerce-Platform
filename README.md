@@ -24,7 +24,7 @@ ShopAI is a **fully functional e-commerce platform** where users can:
 
 The chatbot is powered by **Groq API** (Llama 3.1 8B model) - 100% free to use.
 
-## Features 
+## Features Implemented:
 
 ### 🛒 E-Commerce Features:
 | Feature | Status |
