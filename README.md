@@ -15,7 +15,7 @@
 8. [Submission Information](#submission-information)
 
 ## Project Overview:
-
+ShopAI is a **fully functional e-commerce platform** where users can:
 - Browse 40+ products across 6 categories
 - Add/remove items from cart
 - Complete checkout with address and payment
